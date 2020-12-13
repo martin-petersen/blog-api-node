@@ -1,6 +1,7 @@
 const TabelaUser = require("./user-dao");
 const BadRequest = require("../error/BadRequest");
 const bcrypt = require("bcrypt");
+const { Conflict } = require("../error");
 
 class User {
   constructor({
@@ -40,7 +41,7 @@ class User {
       this.updatedAt = resultado.updatedAt;
       this.version = resultado.version;
     } catch (err) {
-      throw new BadRequest("email já em uso");
+      throw new Conflict("usuário já existente");
     }
   }
 
