@@ -20,14 +20,7 @@ function local(req, res, next) {
     if (err) {
       res.status(401);
       return res.send({
-        mensagem: "token expirado ou inválido",
-      });
-    }
-
-    if (!user) {
-      res.status(401);
-      return res.send({
-        mensagem: "token não encontrado",
+        mensagem: "campos inválidos",
       });
     }
 
