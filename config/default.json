@@ -1,0 +1,14 @@
+{
+    "mysql": {
+        "banco-de-dados": "blog-api",
+        "usuario": "root",
+        "senha": "123456",
+        "host": "127.0.0.1"
+    },
+    "api": {
+        "porta": 3000
+    },
+    "token": {
+        "senha":"Yat2HDK8THVz2A0wfVLJxZaFV7WKD8vPnSWz+2aO4IIP3pBGyeLwV3Z7zixmepS+8TBjdrtjsI5xsCMCPvN96Zi3Tq75/hgDqE8ZhKXLUjjHGmRlKEpZM5wQzrv1W1cQzyHvTMdG7+nlzm1BC87bG5xg942nkCgGqGHdQYubYAcJIow4jXHBA5a6x0TM0iQQtLV/ht/5TsJWaHlHYltH8dPPlNeEZVUPo9o9tQJvSHy2cHAECbEXkzz21DPGBv5PX33zcUkcm5FckviG+/IKr9864y2FMiqwvED/kMotIjf3CRMMwAgmFrlNCCTYV0im3J3u+h1te0hU+pGwTdHA9Q=="
+    }
+}
